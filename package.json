@@ -1,12 +1,17 @@
 {
   "name": "test",
+  "version": "0.0.1",
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "main": "src/function.ts",
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "node-appwrite": "^15.0.1"
   }
 }
