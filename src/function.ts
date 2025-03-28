@@ -1,4 +1,4 @@
-export default function ({req, res, log, error}: any) {
+export default async function ({req, res, log, error}: any) {
     if (req.method !== 'GET') return res.status(405).json({ message: 'Method not allowed' });
 
     log('Function works!');
